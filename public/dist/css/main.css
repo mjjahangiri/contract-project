@@ -1,0 +1,234 @@
+@font-face {
+    font-family: vazir;
+    src: url("../../Font/Vazir.ttf");
+}
+
+body, html {
+    direction: rtl;
+}
+
+.ltr {
+    direction: ltr;
+}
+
+.glorylight{
+    background-color: rgba(255,255,255,0.5);
+}
+.gloryverylight{
+    background-color: rgba(255,255,255,0.2);
+}
+
+.glory{
+    background-color: rgba(255,255,255,0.7);
+}
+@font-face {
+    font-family: vazir-bold;
+    src: url("../../Font/Vazir-Bold.ttf");
+}
+
+@font-face {
+    font-family: vazir-light;
+    src: url("../../Font/Vazir-Light.ttf");
+}
+
+@font-face {
+    font-family: josephin;
+    src: url("../../Font/JosefinSans-Regular.ttf");
+}
+
+.josephin {
+    font-family: josephin;
+    font-size: 0.9rem;
+}
+
+.vazir {
+    font-family: vazir;
+    font-size: 0.9rem;
+}
+
+.vazir-bold {
+    font-family: vazir-bold;
+    font-size: 0.9rem;
+}
+
+.vazir-light {
+    font-family: vazir-light;
+    font-size: 0.9rem;
+}
+
+.calibri-light{
+    font-family: "Calibri";
+    font-size: 0.9rem;
+}
+.calibri{
+    font-family: Calibri;
+}
+
+body, html {
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    font-family: vazir;
+    /*font-family: Calibri;*/
+}
+
+.menu {
+    position: fixed;
+    background: #686868;
+    right: 0px;
+    bottom: 30px;
+    top: 0px;
+    overflow: auto;
+}
+
+#logo a {
+    width: 100%;
+    margin: auto;
+
+}
+
+#logo img {
+    width: 100%;
+    margin: 30px auto;
+
+}
+
+#menu {
+    border-bottom: 1px solid black;
+
+}
+
+#menu a {
+    padding: 0px 15px;
+    width: 100%;
+    background: #686868;
+    height: 50px;
+    line-height: 50px;
+    color: #dcdcdc;
+    border-top: 1px solid black;
+    text-align: center;
+    text-decoration: none;
+}
+
+#menu a:hover {
+    background: #5d5d5d;
+    text-decoration: underline;
+    color: #dcdcdc;
+    font-weight: bold;
+}
+
+.submenu {
+    display: none;
+    width: 100%;
+    padding: 0px;
+}
+
+.submenu a {
+    width: 100%;
+    background: #4e4e4e !important;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-top: 1px solid black;
+    text-align: center;
+    display: inline-block;
+}
+
+.submenu a:hover {
+    background: #3d3d3d !important;
+    text-decoration: none;
+    color: #b8b8b8;
+    font-weight: bold;
+}
+
+#login img {
+    width: 30%;
+    margin: 5px auto;
+}
+
+#login {
+    margin-bottom: 30px !important;
+
+}
+
+.design {
+    text-align: center;
+    color: #b8b8b8;
+    display: block;
+    font-family: josephin;
+    background: #212121;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 30px !important;
+}
+
+.design a {
+    color: #b8b8b8;
+    font-family: josephin;
+    text-decoration: none;
+    position: sticky;
+    height: 30px !important;
+}
+
+.design a:hover {
+    color: #26a5d0;
+    font-family: josephin;
+    text-decoration: 1px solid underline;
+    position: sticky;
+    height: 30px !important;
+}
+
+.design p {
+    margin-bottom: 0px !important;
+    border-top: 1px solid black;
+    position: sticky;
+    height: 30px !important;
+}
+
+.content {
+    position: fixed;
+    left: 0px;
+    height: 760px;
+    overflow: auto;
+    background-color: #dfdfdf;
+}
+
+.header {
+    margin: 50px auto;
+}
+
+.khat {
+    border-top: 0.1em solid #c1c1c1;
+}
+
+.bartar {
+    height: 40px;
+    border: 0.1em solid #c1c1c1;
+    background-color: #dfdfdf;
+    width: 250px;
+}
+
+.h3content {
+    font-size: 16px;
+    color: #222222;
+}
+
+.h6content {
+    font-size: 15px;
+    font-weight: bold;
+    color: #222222;
+}
+
+.gheimat {
+    font-size: 13px;
+    padding: 2px 5px;
+}
+
+.subcontent {
+    max-height: 300px !important;
+}
+
+.rtl {
+    direction: rtl;
+}
